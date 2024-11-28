@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Версия JavaScript для вывода
+    "module": "CommonJS",                      // Модульная система
+    "rootDir": "src",                          // Папка с исходным кодом
+    "outDir": "dist",                          // Папка для компиляции
+    "strict": true,                            // Включение строгого режима TypeScript
+    "esModuleInterop": true,                   // Упрощение импорта модулей CommonJS
+    "skipLibCheck": true,                      // Пропустить проверку типов в node_modules
+    "forceConsistentCasingInFileNames": true   // Строгая чувствительность к регистру
+  },
+  "include": ["src/**/*"],                     // Включить все файлы в папке src
+  "exclude": ["node_modules", "dist"]          // Исключить node_modules и dist
+}
